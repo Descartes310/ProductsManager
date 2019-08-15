@@ -44,7 +44,7 @@ class ShareScreen extends Component {
 
 
   share = () => {
-    let message = "*LIESTE DES PRODUITS DISPO*\n";
+    let message = "*LISTE DES PRODUITS DISPONIBLES*\n";
     this.state.selected.forEach(p => {
         message += `\n-> ${p.name} (${p.quantity} pièces): ${p.price} FCFA`;
     });

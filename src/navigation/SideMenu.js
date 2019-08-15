@@ -37,7 +37,7 @@ class SideMenu extends Component {
             </View>
             <View style={styles.subTitle}>
               <Text style={styles.drawerTitle}>{ this.props.username }</Text>
-              <Text style={styles.drawerEmail}>Built by meztsacar@gmail.com</Text>
+              <Text style={styles.drawerEmail}>Built by descartesouambo@gmail.com</Text>
             </View>
           </View>
           {routes.map(route => (
